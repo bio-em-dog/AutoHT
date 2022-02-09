@@ -33,4 +33,4 @@ def decrease():
 
 if __name__ == "__main__":
     decrease()
-    a=input("##### Finished, Press any key to continue #####")
+    #a=input("##### Finished, Press any key to continue #####")

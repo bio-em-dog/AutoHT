@@ -34,4 +34,4 @@ def increase():
 
 if __name__ == "__main__":
     increase()
-    a=input("##### Finished, Press any key to continue #####")
+    #a=input("##### Finished, Press any key to continue #####")

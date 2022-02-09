@@ -2,21 +2,25 @@
 Automatic HT controll for JEOL JEM1400 electron microscope
 
 # 文件结构
--AutoHT
-    - pyinstaller
-      - (pipenv的执行目录)
-      - pipfile
-    - dec
-    - inc
-    - dec.py
-    - inc.py
+```
+├── dec                     # 降压识别的位置
+├── icon                    # 升降压的icon
+├── README.md               # 说明文档
+├── inc                     # 升压识别的位置
+├── pyinstaller             # pipenv的执行目录
+│    └── pipfile
+├── RAW_UI                  # 整张UI
+├── AutoHT.py
+├── dec.py
+├── inc.py
+└── README.md
+```
 
 # 流程
 anaconda
 写
 pyvenv
 pyinstaller
-
 
 ## pipenv
 https://zhuanlan.zhihu.com/p/57674343
@@ -71,7 +75,6 @@ https://www.reddit.com/r/learnpython/comments/fks3oc/autoscaling_ico_with_pyinst
 
 `Imagemagick`命令：  
 `convert dec_waifu2x_art_scale_tta_1.png  -define icon:auto-resize=256,64,48,32,16 my_icon.ico`
-
 
 
 ### 

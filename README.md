@@ -1,7 +1,7 @@
-# AutoHT
+# AutoHT v0.2
 Automatic HT controll for JEOL JEM1400 electron microscope
 
-# v master
+v0.2: Optimize work flow. Make it more flexiable for different EM UI.
 
 # 文件结构
 ```

@@ -1,6 +1,8 @@
 # AutoHT
 Automatic HT controll for JEOL JEM1400 electron microscope
 
+# v master
+
 # 文件结构
 ```
 ├── dec                     # 降压识别的位置

@@ -1,7 +1,8 @@
-# AutoHT
+# AutoHT v0.1
 Automatic HT controll for JEOL JEM1400 electron microscope
 
-# v0.1
+v0.1  
+Fixed procedure
 
 # 文件结构
 ```

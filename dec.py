@@ -13,7 +13,7 @@ import pyperclip
 # off 11
 
 def decrease():
-    for i in range(8):
+    for i in range(5):
         print("###### Do not move the mouse ######")
         time.sleep(1)
     temCenter("dec/0.png","dec/1.png")
@@ -32,5 +32,6 @@ def decrease():
 
 
 if __name__ == "__main__":
+    log("\n%s\n%s DEC:\n"%("-"*30,time.strftime("%Y-%m-%d %H:%M:%S")))
     decrease()
     #a=input("##### Finished, Press any key to continue #####")

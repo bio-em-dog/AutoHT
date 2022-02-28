@@ -13,10 +13,10 @@ import pyperclip
 # start 12
 
 def increase():
-    for i in range(8):
+    for i in range(5):
         print("###### Do not move the mouse ######")
         time.sleep(1)
-    temCenter("dec/0.png","dec/1.png")
+    temCenter("inc/0.png","inc/1.png")
     mouseClick(1,"left","inc/2.png",0)
     mouseClick(1,"left","inc/3.png",0)
     mouseClick(1,"left","inc/4.png",0)
@@ -33,5 +33,6 @@ def increase():
 
 
 if __name__ == "__main__":
+    log("\n%s\n%s INC:\n"%("-"*30,time.strftime("%Y-%m-%d %H:%M:%S")))
     increase()
     #a=input("##### Finished, Press any key to continue #####")

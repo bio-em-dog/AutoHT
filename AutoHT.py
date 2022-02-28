@@ -2,16 +2,20 @@ import pyautogui
 import time
 import pyperclip
 
+def log(content):
+    with open("..\AutoHT.log",'a') as f:
+        f.write(content)
 
 def mouseClick(clickTimes,LR,img,shift):
     location=pyautogui.locateCenterOnScreen(img,confidence=0.9) # 0.9
     if location:
         pyautogui.click(location.x+shift, location.y, clicks=clickTimes, interval=0.2, duration=0.2,button=LR)
-        print(img,location.x, location.y)
+        #print(img,location.x, location.y)
         ok=1
     else:
         ok=0
-        print(img,"button not found")
+        #print(img,"button not found")
+        log("%s not found.\n"%(img))
     time.sleep(1)
     if ok == 1:
         ok=0

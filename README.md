@@ -7,6 +7,7 @@ Fixed procedure
 - [AutoHT v0.1](#autoht-v01)
 - [文件结构](#文件结构)
 - [流程](#流程)
+- [change](#change)
 - [install and run](#install-and-run)
   - [source](#source)
   - [Executable file](#executable-file)
@@ -42,6 +43,10 @@ pyvenv - pyinstaller
 --or--  
 conda - pyinstaller
 
+# change
+* before 2022: origin v0.1
+* 2022.02.28: add log, cancal console quit confirm.
+
 # install and run
 ## source
 
@@ -58,6 +63,8 @@ call <your anaconda location>\Scripts\activate.bat <your env name>
 :: example:
 call %USERPROFILE%\anaconda3\Scripts\activate.bat autoht
 ```
+
+you'd better modify log file path in `AutoHT.py` line 6
 
 ## Executable file
 
@@ -79,7 +86,12 @@ pip install pyinstaller
 
 pyinstaller -D -i "..\icon\dec.ico" "..\dec.py"
 pyinstaller -D -i "..\icon\inc.ico" "..\inc.py"
+
 ```
+
+** copy `dec` and `inc` image fodler to corresponding working folder **
+
+manual remove pipenv in `%USERPROFILE%\.virtualenvs` if you do not need this pipenv any more.
 
 ### Method2: conda
 ```
@@ -88,7 +100,10 @@ conda install pyinstaller
 
 pyinstaller -D -i "..\icon\dec.ico" "..\dec.py"
 pyinstaller -D -i "..\icon\inc.ico" "..\inc.py"
+
 ```
+
+** copy `dec` and `inc` image fodler to corresponding working folder **
 
 ### pyinstaller param
 

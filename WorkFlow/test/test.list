@@ -1,0 +1,11 @@
+# Wait
+# Click
+# Judgeclick
+# Input
+
+Click 1.png Left 1 0 0
+Click 2.png Left 2 0 0
+Halt
+Wait 5
+Click 3.png Left 2 0 0
+Input 20

@@ -19,11 +19,27 @@ v0.2: Optimize work flow. Make it more flexiable for different EM UI.
 └── README.md
 ```
 
-# 流程
-anaconda
-写
-pyvenv
-pyinstaller
+# 结构
+
+- AutoHT
+  - 主py (放在一个文件夹里，这样pyinstaller出来后路径一致)
+  - 参数 flowname
+  - def findlocation(), click, judgeclick, input
+- flow
+  - flow1
+    - 图
+    - flow1.lst:
+      - 循    环：Loop 1,End
+      - 等    待: Wait, time
+      - 点    击：Click, img, LR , times ,shiftx ,shift y
+      - 判断点击：Judgeclick, img1, img2, LR , times ,shiftx ,shift y
+      - 输    入：Input,jobtype, value
+      - 键盘： Key 
+      - 挂起： Halt
+
+
+  - flow2
+  - ...
 
 ## pipenv
 https://zhuanlan.zhihu.com/p/57674343

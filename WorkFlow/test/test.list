@@ -3,9 +3,24 @@
 # Judgeclick
 # Input
 
-Click 1.png Left 1 0 0
-Click 2.png Left 2 0 0
-Halt
-Wait 5
-Click 3.png Left 2 0 0
-Input 20
+#Click 1.png Left 1 0 0
+#Click 2.png Left 2 0 0
+#Halt
+#Wait 5
+#Click 3.png Left 2 0 0
+#Input 20
+
+Loop 100000
+Click 0.png Left 1 0 35
+Wait 1
+Click 0.png Left 1 0 35
+Wait 11
+Click 0.png Left 1 0 35
+Wait 24
+Click 0.png Left 1 0 35
+Wait 33
+Click 0.png Left 1 0 35
+Wait 21
+End
+
+# ls

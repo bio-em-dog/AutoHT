@@ -58,7 +58,8 @@ pip install <.py里面用到的模块>
 
 pip install pyperclip
 pip install pyautogui==0.9.50
-pip install opencv-python
+pip install opencv-python==3.4.10.37
+pip install pyscreeze==0.1.29
 
 pipenv graph #显示安装的环境
 #打包的模块也要安装
@@ -66,6 +67,9 @@ pip install pyinstaller
 #开始打包
 pyinstaller -Fw E:\test\url_crawler.py
 ```
+## 32bit x86 版本
+在 Support PC 的 Hyper V 中安装虚拟机  
+安装32位的python3.7.8 x86，其他相同操作  
 
 ## pyinstaller
 
